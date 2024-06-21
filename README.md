@@ -34,16 +34,12 @@ To get started with this repository:
 
 1. *Clone the Repository*: Use the following command to clone the repository to your local machine:
     ```
-    git clone https://github.com/chetanck03/TR-102.git
+    git clone https://github.com/kbir-dev/TR-102.git
     ```
     
 2. *Navigate to the Daily Task*: Navigate to the folder of the current date to view and start working on the tasks.
    
 3. *Follow the Instructions*: Open the README.md file in the folder for detailed instructions on completing the tasks for that day.
-
-## Contributing
-
-We welcome contributions from participants and the community. If you have improvements or additional resources to share, feel free to submit a pull request. Please ensure your contributions align with the structure and objectives of the training program.
 
 ## Feedback
 
