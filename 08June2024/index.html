@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TR-102 Training Diary</title>
+<style>
+  .border-box {
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    height: 400px;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .block-display {
+    display: block;
+    background-color: lightgrey;
+    padding: 8px;
+    margin-top: 4px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .inline-display {
+    display: inline;
+    background-color: lightgreen;
+    padding: 8px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: lightcoral;
+  }
+
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 8px;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="fixed-header">Fixed Header</div>
+
+<div class="border-box">Box with Border and Border Radius</div>
+
+<span class="block-display">Block Display Element</span>
+
+<span class="inline-display">Inline Display Element</span>
+
+<div class="flex-container">
+  <div>Flex Item 1</div>
+  <div>Flex Item 2</div>
+  <div>Flex Item 3</div>
+</div>
+
+</body>
+</html>

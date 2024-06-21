@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi-Page Responsive Website</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  body { font-family: Arial, sans-serif; }
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    nav { flex-direction: column; }
+    nav a { padding: 10px; }
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Multi-Page Responsive Website</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="content">
+  <h2>Welcome!</h2>
+  <p>This is the homepage of our multi-page responsive website. Navigate through the pages to learn more about our services and company.</p>
+</div>
+
+<footer>
+  © 2024 Multi-Page Website. All rights reserved.
+</footer>
+
+<script>
+// Add your JavaScript here for interactive elements
+</script>
+
+</body>
+</html>

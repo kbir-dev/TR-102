@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TR-102 Training Diary - 10 June 2024</title>
+<style>
+  .hover-button {
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .hover-button:hover {
+    background-color: coral;
+    transform: scale(1.1);
+  }
+
+  .rotate-on-hover {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition: transform 0.3s ease;
+  }
+
+  .rotate-on-hover:hover {
+    transform: rotate(45deg);
+  }
+
+  @keyframes move-animation {
+    from {transform: translateX(0);}
+    to {transform: translateX(300px);}
+  }
+
+  .animated-element {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    animation: move-animation 2s infinite alternate;
+  }
+</style>
+</head>
+<body>
+
+<button class="hover-button">Hover Over Me!</button>
+
+<div class="rotate-on-hover"></div>
+
+<div class="animated-element"></div>
+
+</body>
+</html>
