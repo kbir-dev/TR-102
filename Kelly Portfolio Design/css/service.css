@@ -1,0 +1,38 @@
+ul :nth-child(4) .line {
+    height: 2px;
+    width: 50%;
+    background-color: #1d685f;
+}
+
+@media (max-width: 991px){
+    ul :nth-child(4) .line {
+        height: 2px;
+        width: 6%;
+        background-color: #1d685f;
+    }
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon :nth-child(2){
+    position: absolute;
+    top: 28%;
+    width: 40px;
+}
+
+.main{
+    gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-body{
+    margin: 60px 0px 60px 0px;
+    padding: 0!important;
+} 
+

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Raleway', 'Poppins', sans-serif;
+}
+
+nav {
+    position: sticky !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 1000;
+    height: 80px;
+}
+
+ul {
+    gap: 30px;
+}
+
+.right {
+    gap: 10px;
+}
+
+.right i {
+    height: 30px;
+    width: 20px;
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+.right i:hover {
+    color: #1d685f;
+}
+
+li {
+    display: inline;
+    padding: 0;
+}
+
+li .line {
+    height: 2px;
+    width: 0px;
+    background-color: none;
+    transition: 0.3s ease-in-out;
+}
+
+li:hover .line {
+    height: 2px;
+    width: 50%;
+    background-color: #1d685f;
+}
+
+.nav-link {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+a.nav-link {
+    padding: 0px 0px;
+}
+
+.bold{
+    font-weight: 700 !important;
+}
+
+footer span{
+    color: #1d685f;
+}
+
+
+.divider{
+    width: 75px;
+    height: 2px;
+    background-color: #1d685f;
+}
+
+
+@media (max-width: 991px) {
+    nav {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    
+
+    ul li:hover .line {
+        height: 2px;
+        width: 6%;
+        background-color: #1d685f;
+    }
+    
+    .navbar-collapse {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .right {
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 15px;
+    }
+}
+
